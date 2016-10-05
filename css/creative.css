@@ -214,6 +214,12 @@ header .header-content .header-content-inner p {
 .skills-second-row {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+}
+@media (max-width: 992px) {
+  .skills-second-row {
+    flex-direction: column;
+  }
 }
 .service-box {
   max-width: 400px;
